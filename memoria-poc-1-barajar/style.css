@@ -1,0 +1,19 @@
+body {
+  background-color: #dff3f3;
+  font-family: sans-serif;
+}
+
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 15px;
+  width: max-content;
+  margin: 40px auto;
+}
+
+.carta {
+  width: 100px;
+  height: 100px;
+  background-color: #9dd2f0;
+  border-radius: 12px;
+}
